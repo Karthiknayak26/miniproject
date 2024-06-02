@@ -6,7 +6,7 @@ frameWidth = 1000   # Frame Width
 frameHeight = 480   # Frame Height
 
 # Load the Haar Cascade for Russian plate number detection
-plateCascade = cv2.CascadeClassifier("haarcascade_russian_plate_number.xml")
+plateCascade = cv2.CascadeClassifier("haarcascade_russian_plate_number.xml");
 minArea = 500
 
 # Initialize the video capture
